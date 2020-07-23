@@ -3,11 +3,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000000;
+  color: #130202;
 }
 
 a {
-  color: #149ddd;
+  color: #d0d8db;
 }
 
 a:hover {
@@ -206,7 +206,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg.jpg") top center;
   background-size: cover;
 }
 
@@ -284,21 +283,22 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-family: "Times New Roman";
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #11360d;
 }
 
 .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 170px;
   height: 3px;
-  background: #149ddd;
+  background: #1b0329;
   bottom: 0;
   left: 0;
 }
@@ -310,10 +310,19 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about
+{
+  background-color: #753f333a;
+}
+.about p
+{
+  font-family: "Tahoma";
+
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #0c8831;
 }
 
 .about .content ul {
@@ -338,7 +347,8 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts {
+.facts 
+{
   padding-bottom: 30px;
 }
 
@@ -388,6 +398,10 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+.skills
+{
+  background-color: #2f535e3a;
+}
 .skills .progress {
   height: 50px;
   display: block;
