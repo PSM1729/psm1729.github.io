@@ -612,7 +612,7 @@ section {
 }
 .contactf input {
   background-color: rgba(213, 220, 223, 0.342);
-  border: none;
+  border: 1px solid;
   color: rgb(20, 12, 12);
   display: block;
   font-family: $secondary-font;
@@ -623,7 +623,7 @@ section {
 }
 .contactf textarea {
   background-color: rgba(213, 220, 223, 0.342);
-  border: none;
+  border: 1px solid;
   color: rgb(20, 12, 12);
   display: block;
   font-family: $secondary-font;
@@ -634,7 +634,7 @@ section {
 }
 .contactf button {
   background-color: rgba(20, 157, 221, 0.75);
-  border: none;
+  border-radius: 10px;
   color: white;
   display: block;
   font-family: $secondary-font;
