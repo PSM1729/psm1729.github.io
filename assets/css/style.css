@@ -615,7 +615,6 @@ section {
   border: 1px solid;
   color: rgb(20, 12, 12);
   display: block;
-  font-family: $secondary-font;
   font-size: 14px;
   margin-bottom: 20px;
   padding: 20px;
@@ -626,7 +625,6 @@ section {
   border: 1px solid;
   color: rgb(20, 12, 12);
   display: block;
-  font-family: $secondary-font;
   font-size: 14px;
   margin-bottom: 20px;
   padding: 20px;
@@ -637,7 +635,6 @@ section {
   border-radius: 10px;
   color: white;
   display: block;
-  font-family: $secondary-font;
   font-size: 18px;
   margin-left: auto;
   padding: 20px;
